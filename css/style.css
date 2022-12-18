@@ -1,0 +1,72 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Raleway:wght@200&display=swap');
+
+body{
+    background-color: white;  
+}
+
+.container{
+    background-color: #f2f1f1;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+.container-fluid{
+    padding: 3%;
+}
+
+h1{
+    color: black; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 4vw; 
+    font-weight: bolder;
+    padding: 1%;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5vw;
+    padding: 2%;
+}
+
+.img-secondary{
+    border-style: solid dotted;
+    width: 60%;
+}
+
+.img-size{
+    width: 30%;
+}
+
+.link-label{
+    padding: 2%;
+}
+
+.list-format{
+    margin: auto;
+    padding: 1%;
+    text-align: start;
+    width: 60%;
+}
+
+@media screen  and (max-width: 640px) {
+    .img-secondary{
+        border-style: solid dotted;
+        margin-bottom: 2%;
+        width: 40%;
+    }
+
+    .form-label, .link-label{
+        font-size: 2vw;
+    }
+
+    .list-format{
+        font-size: 2vw;
+        margin: auto;
+        width: 40%;
+    }
+
+    .phoneAlignment{
+        flex-direction: column;
+    }
+}
